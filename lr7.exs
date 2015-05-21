@@ -33,7 +33,7 @@ defmodule MyList do
 	end
     
     #Comment
-	def tax([], tax_rates) do
+	def tax([], _tax_rates) do
 		[]
 	end
 
